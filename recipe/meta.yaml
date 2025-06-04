@@ -1,5 +1,5 @@
 {% set name = "sorcha-addons" %}
-{% set version = "0.4" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dirac-institute/sorcha-addons/archive/v{{ version }}.tar.gz
-  sha256: 02cd9e17c4241c2ea0aa42bc1f1b04400497a782b08c3df211311b3ab83790b4
+  sha256: 6f25e103a20ae70e88b08d3e622bc6022b634bf3e3b3659a736c54f1242bd724
 
 build:
   noarch: python
